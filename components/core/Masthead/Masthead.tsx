@@ -102,7 +102,7 @@ const Masthead: FC<Props> = ({ children, variant = 'default', logo, navigationBa
             <a id="top" />
             <section className="af-banner-top">
                 { locale === "de-DE" ? 'Profitieren Sie von 10% Rabatt auf Ihren ersten Einkauf mit dem Code FIRST10 an der Kasse - es gelten die AGB'
-                    : 'We are the UKs leading Gift Experience Provider' }
+                    : 'We are the UKs leading Gift Experience Provider hello' }
             </section>
             <section className="af-banner">
               <section className="af-banner__currency-selector">
