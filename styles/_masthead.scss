@@ -68,16 +68,19 @@
         padding-top: 10px;
     }
     &__account-option-icon {
+      fill: white;
+      color: white;
+
       &:not(:first-child) {
         padding-left: 16px;
       }
       &:not(:last-of-type) {
         padding-right: 16px;
-        border-right: 1px #999 solid;
+        //border-right: 1px #999 solid;
       }
       &:first-of-type {
         padding-right: 16px;
-        border-right: 1px #999 solid;
+        //border-right: 1px #999 solid;
       }
         img {
             height: 24px;

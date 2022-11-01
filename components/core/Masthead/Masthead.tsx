@@ -115,11 +115,7 @@ const Masthead: FC<Props> = ({ children, variant = 'default', logo, navigationBa
                     <Link href="/">
                         <a>
                             {
-                                logo ? (
-                                    <img alt="" src={getImageURL(logo, { format: ImageFormat.PNG })} />
-                                ) : (
-                                    <img alt="" src="/images/AnyaFinn-Logo.svg" />
-                                )
+                                <img alt="" src="https://csdemo.a.bigcontent.io/v1/static/buyagift-logo" />
                             }
                         </a>
                     </Link>
