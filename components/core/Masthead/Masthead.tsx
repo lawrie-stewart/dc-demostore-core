@@ -129,13 +129,13 @@ const Masthead: FC<Props> = ({ children, variant = 'default', logo, navigationBa
                         </a>
                     </span>
                     <a href="#" className="af-banner__account-option-icon af-banner__account-option-icon--locator" onClick={handleShowLocaleModal}>
-                        <img src="https://dcdemo.a.bigcontent.io/v1/static/af-locator" alt="locale" />
+                        <img src="https://dcdemo.a.bigcontent.io/v1/static/af-locator-white" alt="locale" />
                     </a>
                     <a href="#" className="af-banner__account-option-icon af-banner__account-option-icon--account" onClick={handleShowAccountModal}>
-                        <img src="https://dcdemo.a.bigcontent.io/v1/static/af-account" alt="account" />
+                        <img src="https://dcdemo.a.bigcontent.io/v1/static/af-account-white" alt="account" />
                     </a>
                     <a href="#" className="af-banner__account-option-icon af-banner__account-option-icon--cart" onClick={handleToggleDebug}>
-                        <img src="https://dcdemo.a.bigcontent.io/v1/static/af-cart" alt="cart" />
+                        <img src="https://dcdemo.a.bigcontent.io/v1/static/af-cart-white" alt="cart" />
                     </a>
                 </div>
             </section>
